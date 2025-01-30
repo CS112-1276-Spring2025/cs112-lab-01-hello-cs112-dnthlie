@@ -1,33 +1,46 @@
 public class Shoes {
     private String brand;
 
-    //DEFAULT CONSTRUCTOR
+    /* DEFAULT CONSTRUCTOR
+     *
+     */
     public Shoes() {
         this.brand = "Unknown";
     }
-
-    //FULL CONSTRUCTOR
+    
+    /* FULL CONSTRUCTOR
+     * @param brand
+     */
     public Shoes(String brand) {
         this.brand = brand;
     }
 
-    //GETTERS
+    /* GETTERS
+     * @return brand
+     */
     public String getBrand() {
         return brand;
     }
 
-    //SETTERS
+    /* SETTERS
+     * @param brand
+     */ 
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    //ToString METHOD
+    /* ToString METHOD
+     *
+     */
     @Override
     public String toString() {
         return "Brand name: " + brand;
     }
 
-    //EQUALS METHOD
+    /* EQUALS METHOD
+     * @param obj
+     * @return equals true/false
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;

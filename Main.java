@@ -15,7 +15,6 @@ public class Main {
 
     /**** STATIC METHODS - PART II ****/
 
-    // PART II
     public static void greetingsEarthling() {
         System.out.println("Hello Puny Bipedal Carbon-Based Entities of type-0 Civilization");
     }
